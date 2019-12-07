@@ -1,4 +1,5 @@
 import React from 'react';
+import faker from 'faker'; // creates fake data for dev
 
 const CommentDetail = () => {
     return (
@@ -18,3 +19,6 @@ const CommentDetail = () => {
             </div>
     );
 };
+
+// export and make this component available to the rest of the project.
+export default CommentDetail;
